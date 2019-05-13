@@ -38,26 +38,22 @@ This command is really long and a bit confusing, so we'll break it down.
 
 #### Searching & Mining
 
-Move back to the BWRP books
-
-`$ cd ..`
-
 Display the first and last ten lines of a text using **head** / **tail**
 
-`$ head ActoEPoems.htm`
+`$ head 19390117_BerniceKellyHarris_0434.txt`
 
-`$ tail ActoEPoems.htm`
+`$ tail 19390117_BerniceKellyHarris_0434.txt`
 
 Find out how many lines and words there are in a text of your choosing using **wc -l -w**
 
-`$ wc -l -w bwrp_ActoEPoems.txt`
+`$ wc -l -w 19390117_BerniceKellyHarris_0434.txt`
 
 Results:
 
 ```
-1607 15242 bwrp_ActoEPoems.txt
+199    9129 19390117_BerniceKellyHarris_0434.txt
 ```
->1607 lines and 15,242 words
+>199 lines and 9129 words
 
 Do some very basic searching with egrep — this will print the entire line it's mentioned in
 
@@ -108,7 +104,8 @@ Here's one possible regular expression to match these running headers. `NORTH CA
 
 If we look back at our previous exercises, we could probably guess that `egrep -o 'NORTH CAROLINA WRITERS PROJECT\s+[0-9]+' *.txt` would print out every line that matches....but how to we remove that line and leave everything else behind?
 
-`LC_CTYPE=C sed -E -i '' 's/NORTH CAROLINA WRITERS PROJECT[[:space:]]+[0-9]+//g' *.txt`
+**Macs** `LC_CTYPE=C sed -E -i '' 's/NORTH CAROLINA WRITERS PROJECT[[:space:]]+[0-9]+//g' *.txt`
+**Windows** `LC_CTYPE=C sed -E -i 's/NORTH CAROLINA WRITERS PROJECT[[:space:]]+[0-9]+//g' *.txt`
 
 >`LC_CTYPE=C` will ignore encoding problems we may have
 
