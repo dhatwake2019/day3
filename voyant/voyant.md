@@ -16,6 +16,7 @@ According to the Voyant Website <sup>[1](#myfootnote1)</sup>, we can do the foll
 
 
 ### Downloading Voyant
+Back-up plan if online isn't working.
 
 - [Voyant Server Instructions](http://digihum.mcgill.ca/voyant/resources/run-your-own/voyant-server/#download)
 - [Voyan Server on GitHub](https://github.com/sgsinclair/VoyantServer)
