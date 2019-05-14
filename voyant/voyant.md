@@ -102,13 +102,12 @@ Phrases: Provides a table of repeating phrases.
 
 ### FWP in NC
 
-- [By Date]()
-- [By Author]()
 
+Let's now take a look at FWP in NC. Let's download by author.
 
-Let's now take a look at FWP in NC.
-
-[Download the corpus](https://github.com/dhatwake2019/day3/blob/master/topicmodeling/texts-refined.zip) to your Desktop. 
+- [By Date](https://github.com/dhatwake2019/day3/blob/master/voyant/texts-refined-nodateremoved.zip)
+- [Ida Moore](https://github.com/dhatwake2019/day3/blob/master/voyant/texts-refined-idamoore.zip)
+- [By Author](https://github.com/dhatwake2019/day3/blob/master/voyant/texts-refined-interviewer2.zip)
 
 Unzip the file.
 
