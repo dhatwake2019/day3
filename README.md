@@ -6,12 +6,12 @@
 
 - A working definition of "text analysis"
 - An idea of how to approach text analysis (i.e where to start and some of the methods/tools needed)
-- Key terminology
-	-- Data / Capta
-	-- "scraping"and "cleaning" data
-	-- Metadata
-	-- schemas, ontologies, (un)controlled vocabularies 
-- Resources for additional support (ex. WFU DSIC)
+- Key terminology:
+	- Data / Capta
+	- "scraping"and "cleaning" data
+	- Metadata
+	- schemas, ontologies, (un)controlled vocabularies 
+- Resources for additional support (ex. WFU DISC, [Collective Notes](https://docs.google.com/document/d/1wA7aqV_U1mh-G-9k1vX9jyksdhXt8CPuANQiAS9-5pQ/edit?usp=sharing))
 
 Methods:
 - Creating and structuring data for analysis (ex. scraping, OCR  with Tasseract and .txt files) 
