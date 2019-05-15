@@ -19,4 +19,6 @@ Methods:
 - Strategies for "cleaning" data (OpenRefine)
 - Data visualization (Flourish)
 - Word Frequencies (Voyant)
+- Keywords (Voyant)
+- TF/IDF (Voyant)
 - Topic Modeling (TPM Tool)
