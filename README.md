@@ -16,7 +16,10 @@
 Methods:
 - Creating and structuring data for analysis (ex. scraping, OCR  with Tasseract and .txt files) 
 - Tidying Data
-- Strategies for "cleaning" data (OpenRefine)
+- Strategies for "cleaning" data (OpenRefine). Examples include:
+	- removing incorrect charachters
+	- removing running headers
+	- standardizing metadata
 - Data visualization (Flourish)
 - Word Frequencies (Voyant)
 - Keywords (Voyant)
